@@ -4,7 +4,7 @@ Simple CLI script that scans a directory for `.mp4` files and writes `.srt` subt
 
 ## Requirements
 
-- `ffmpeg` on your PATH
+- `ffmpeg` on your PATH (used to extract audio from `.mp4`)
 - `uv` to run the script
 
 ## Installation
@@ -25,6 +25,24 @@ cd video-transcription
 
 ```bash
 chmod +x main.sh
+```
+
+4) Install `ffmpeg`:
+
+macOS (Homebrew):
+```bash
+brew install ffmpeg
+```
+
+Ubuntu/Debian:
+```bash
+sudo apt-get update
+sudo apt-get install ffmpeg
+```
+
+Verify it is on your PATH:
+```bash
+ffmpeg -version
 ```
 
 ## Usage
