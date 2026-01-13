@@ -17,8 +17,8 @@ Simple CLI script that scans a directory for `.mp4` files and writes `.srt` subt
 2) Clone this repo:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/ShipItSquad/video-transcription.git
+cd video-transcription
 ```
 
 3) Make the script executable:
